@@ -1,14 +1,14 @@
 ﻿PIP Variable Diccionary,
 region_code,Three-letter World Bank abbreviation of world regions
 country_code,Three-letter ISO (alpha-3) country code system for international stardardization
-reporting_year,
-reporting_level,
+reporting_year,[NAME WILL CHANGE]
+reporting_level,[HARD TO DEFINE - DISCUSS WITH AC]
 survey_acronym,Country survey acronym
 survey_coverage,"Geographic coverage of the country survey (i.e. national, urban, etc.)"
-survey_year,
+survey_year,[NAME WILL CHANGE]
 welfare_type,Type of welfare vector used for estimates (income or consumption expenditure)
 survey_comparability,"Series comparability code where zero(0) is oldest comparable series in each country. When comparability is broken, the value changes to one (1) and so on."
-comparable_spell,
+comparable_spell,[THIS VAR WILL BE REMOVED]
 poverty_line,Minimum value representing the basic necessities an individual requires to live (per day).
 headcount,Proportion (%) of the population that live in households where the consumption or income per person is below the poverty line.
 poverty_gap,"Measures the ""intensity"" or ""depth"" of poverty, showing the average shortfall of the total population from the poverty line."
@@ -31,18 +31,18 @@ decile9,Income or Consumption share held by the 9th decile (%)
 decile10,Income or Consumption share held by the highest/10th decile (%)
 survey_mean_lcu,Average monthly household per capita income or consumption expenditure from the survey in Local Currency Units
 survey_mean_ppp,Average monthly household per capita income or consumption expenditure from the survey in $ 2011 PPP
-predicted_mean_ppp,
+predicted_mean_ppp,Interpolated mean welfare to reporting year
 cpi,Consumer Price Index
-cpi_data_level,
+cpi_data_level,"Geographical leve of the Consumer Price Index (i.e. national, urban…)"
 ppp,Purchasing Power Parity (International Comparison Program - ICP 2011)
-ppp_data_level,
+ppp_data_level,"Geographical level of the Purchasing Power Parity (i.e. national, urban…)"
 reporting_pop ,Total population
-pop_data_level,
+pop_data_level,"Geographical level of the reported population (i.e. national, urban…)"
 reporting_gdp ,Gross Domestic Product
-gdp_data_level,
-reporting_pce ,
-pce_data_level,
-is_interpolated,"1 if data for that year is is interpolated for global estimates purposes, 0 if it's a survey year"
-is_used_for_aggregation,
-distribution_type,
-estimation_type,
+gdp_data_level,"Geographical level of the Gross Domestic Product (i.e. national, urban…)"
+reporting_pce ,Household Final Consumption Expenditure
+pce_data_level,"Geographical level of the HFCE (i.e. national, urban…)"
+is_interpolated,"1 if data for that year is interpolated for global estimates purposes, 0 if it's a survey year"
+is_used_for_aggregation,1 if datapoint is used for global and regional aggregations
+distribution_type,"Underlying distribution of welfare (aggretate, grouped, imputed, or micro data)"
+estimation_type,[VAR SHOULD BE REMOVED]
