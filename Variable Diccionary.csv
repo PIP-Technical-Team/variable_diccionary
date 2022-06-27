@@ -34,7 +34,7 @@ decile9,Income or Consumption share held by the 9th decile (%)
 decile10,Income or Consumption share held by the highest/10th decile (%)
 cpi,Consumer Price Index
 ppp,Purchasing Power Parity (International Comparison Program - ICP 2011)
-population,Total population
+population,Total population in year
 gdp,Gross Domestic Product
 hfce,Household Final Consumption Expenditure
 is_interpolated,"1 if data for that year is interpolated for global estimates purposes, 0 if it's a survey year"
