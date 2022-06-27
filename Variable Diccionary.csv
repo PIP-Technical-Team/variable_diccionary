@@ -9,9 +9,9 @@ survey_coverage,"Geographic coverage of the country survey (i.e. national, urban
 welfare_time,Welfare time
 welfare_type,Type of welfare vector used for estimates (income or consumption expenditure)
 survey_time,Time of survey in the field
-survey_comparability,"Series comparability code where zero(0) is oldest comparable series in each country. When comparability is broken, the value changes to one (1) and so on."
+survey_comparability,"Series comparability code where zero(0) is oldest comparable series in each country. When comparability is broken, the value changes to one (1) and so on"
 comparable_spell,Comparability over time at country level
-poverty_line,Minimum value representing the basic necessities an individual requires to live (per day).
+poverty_line,Minimum value representing the basic necessities an individual requires to live (per day)
 headcount,Proportion (%) of the population that live in households where the consumption or income per person is below the poverty line
 poverty_gap,"Measures the ""intensity"" or ""depth"" of poverty, showing the average shortfall of the total population from the poverty line"
 poverty_severity,Averages the squares of the poverty gaps relative to the poverty line
