@@ -39,4 +39,4 @@ gdp,Gross Domestic Product
 hfce,Household Final Consumption Expenditure
 is_interpolated,"1 if data for that year is interpolated for global estimates purposes, 0 if it's a survey year"
 distribution_type,"Underlying distribution of welfare (aggretate, grouped, imputed, or micro data)"
-population_in_poverty,Population in poverty
+pop_in_poverty,Population in poverty
